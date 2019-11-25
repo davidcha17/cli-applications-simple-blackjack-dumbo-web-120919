@@ -23,11 +23,6 @@ def get_user_input
   gets.chomp.strip
 end
 
-def end_game
-  # code #end_game here
-  puts "Sorry, you hit #{card_total}. Thanks for playing!"
-end
-
 def initial_round
   # code #initial_round here
   first_round = deal_card + deal_card
@@ -52,6 +47,12 @@ def hit?(card_total)
   end
   card_total
 end
+
+def end_game
+  # code #end_game here
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
+end
+
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
