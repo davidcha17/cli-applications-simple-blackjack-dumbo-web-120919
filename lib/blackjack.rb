@@ -1,4 +1,5 @@
 def welcome
+  puts "Welcome to the Blackjack Table"
   # code #welcome here
 end
 
@@ -41,4 +42,3 @@ end
 def runner
   # code runner here
 end
-    
